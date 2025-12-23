@@ -1,0 +1,21 @@
+{
+   "insecure-registries": [
+        "zzz.z"
+    ],
+  
+    "features": {
+        "buildkit": true
+    },
+    "registry-mirrors": [
+       "http://localhost:5000",
+        "https://docker.anyhub.us.kg",
+        "https://hub-mirror.c.163.com",
+        "https://image.cloudlayer.icu",
+        "https://docker.wanpeng.top",
+        "https://docker.m.daocloud.io",
+        "https://docker.1ms.run",
+        "https://ccr.ccs.tencentyun.com",
+        "https://hub.rat.dev"
+    ],
+    "max-concurrent-downloads": 3
+}

@@ -1,4 +1,5 @@
 services:
+
   broker:
     image: a_kafka:latest
     container_name: broker
@@ -28,15 +29,3 @@ services:
     depends_on:
       - broker
     restart: always
-  redis:
-    image: a_redis:latest
-    container_name: redis
-    ports:
-      - 6379:6379
-    networks:
-      - kafka-network
-    restart: always
-    
-networks:
-  kafka-network:
-    driver: bridge

@@ -2,7 +2,7 @@
 
 services:
   broker:
-    image: zookeeper:latest
+    image: a_kafka:latest
     networks:
       - kafka_network
     container_name: kafka
